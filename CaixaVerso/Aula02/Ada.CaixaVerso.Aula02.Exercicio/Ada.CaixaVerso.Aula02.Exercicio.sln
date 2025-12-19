@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ada.CaixaVerso.Aula02.Exercicio", "Ada.CaixaVerso.Aula02.Exercicio.csproj", "{5A2DC9D3-7FFE-83F1-D0F8-2E059F9B3BAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A2DC9D3-7FFE-83F1-D0F8-2E059F9B3BAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2DC9D3-7FFE-83F1-D0F8-2E059F9B3BAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2DC9D3-7FFE-83F1-D0F8-2E059F9B3BAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2DC9D3-7FFE-83F1-D0F8-2E059F9B3BAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF215855-D220-4276-AAC2-E06536E0A923}
+	EndGlobalSection
+EndGlobal

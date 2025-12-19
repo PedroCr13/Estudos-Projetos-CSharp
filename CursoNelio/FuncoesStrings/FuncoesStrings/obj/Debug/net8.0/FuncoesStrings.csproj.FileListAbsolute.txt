@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\bin\Debug\net8.0\FuncoesStrings.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\bin\Debug\net8.0\FuncoesStrings.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\bin\Debug\net8.0\FuncoesStrings.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\bin\Debug\net8.0\FuncoesStrings.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\bin\Debug\net8.0\FuncoesStrings.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\refint\FuncoesStrings.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\FuncoesStrings.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\FuncoesStrings\FuncoesStrings\obj\Debug\net8.0\ref\FuncoesStrings.dll

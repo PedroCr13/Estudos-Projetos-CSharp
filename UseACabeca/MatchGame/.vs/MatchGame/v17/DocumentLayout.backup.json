@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\CSharp_Projetos\\UseACabeca\\MatchGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6237A99E-DEAB-4A73-84B7-081D75760272}|MatchGame\\MatchGame.csproj|c:\\users\\pedro\\onedrive\\documentos\\csharp_projetos\\useacabeca\\matchgame\\matchgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{6237A99E-DEAB-4A73-84B7-081D75760272}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6237A99E-DEAB-4A73-84B7-081D75760272}|MatchGame\\MatchGame.csproj|c:\\users\\pedro\\onedrive\\documentos\\csharp_projetos\\useacabeca\\matchgame\\matchgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6237A99E-DEAB-4A73-84B7-081D75760272}|MatchGame\\MatchGame.csproj|solutionrelative:matchgame\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\CSharp_Projetos\\UseACabeca\\MatchGame\\MatchGame\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MatchGame\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Documentos\\CSharp_Projetos\\UseACabeca\\MatchGame\\MatchGame\\MainWindow.xaml",
+              "RelativeToolTip": "MatchGame\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-04T04:04:24.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\CSharp_Projetos\\UseACabeca\\MatchGame\\MatchGame\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MatchGame\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Documentos\\CSharp_Projetos\\UseACabeca\\MatchGame\\MatchGame\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MatchGame\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T04:04:24.296Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\bin\Debug\net9.0\Banco.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\bin\Debug\net9.0\Banco.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\bin\Debug\net9.0\Banco.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\bin\Debug\net9.0\Banco.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\bin\Debug\net9.0\Banco.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\refint\Banco.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\Banco.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\Classes\Banco\obj\Debug\net9.0\ref\Banco.dll

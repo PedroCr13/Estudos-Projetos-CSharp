@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\bin\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\bin\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\bin\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\bin\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\bin\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\refint\Ada.CaixaVerso.Aula02.Exercicio.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\Ada.CaixaVerso.Aula02.Exercicio.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\Aula02\Ada.CaixaVerso.Aula02.Exercicio\obj\Debug\net9.0\ref\Ada.CaixaVerso.Aula02.Exercicio.dll

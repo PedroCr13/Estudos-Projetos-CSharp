@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\bin\Debug\net9.0\Tipos.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\bin\Debug\net9.0\Tipos.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\bin\Debug\net9.0\Tipos.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\bin\Debug\net9.0\Tipos.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\bin\Debug\net9.0\Tipos.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\refint\Tipos.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\Tipos.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Tipos\obj\Debug\net9.0\ref\Tipos.dll

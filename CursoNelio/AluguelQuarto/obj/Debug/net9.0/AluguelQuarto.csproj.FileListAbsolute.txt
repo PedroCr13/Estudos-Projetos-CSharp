@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\bin\Debug\net9.0\AluguelQuarto.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\bin\Debug\net9.0\AluguelQuarto.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\bin\Debug\net9.0\AluguelQuarto.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\bin\Debug\net9.0\AluguelQuarto.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\bin\Debug\net9.0\AluguelQuarto.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\refint\AluguelQuarto.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\AluguelQuarto.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\AluguelQuarto\obj\Debug\net9.0\ref\AluguelQuarto.dll

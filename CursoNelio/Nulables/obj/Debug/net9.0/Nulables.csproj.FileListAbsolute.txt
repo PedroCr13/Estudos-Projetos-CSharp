@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\bin\Debug\net9.0\Nulables.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\bin\Debug\net9.0\Nulables.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\bin\Debug\net9.0\Nulables.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\bin\Debug\net9.0\Nulables.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\bin\Debug\net9.0\Nulables.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\refint\Nulables.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\Nulables.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CursoNelio\Nulables\obj\Debug\net9.0\ref\Nulables.dll

@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\bin\Debug\net9.0\ExercicioAula1.exe
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\bin\Debug\net9.0\ExercicioAula1.deps.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\bin\Debug\net9.0\ExercicioAula1.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\bin\Debug\net9.0\ExercicioAula1.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\bin\Debug\net9.0\ExercicioAula1.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\refint\ExercicioAula1.dll
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.pdb
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ExercicioAula1.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\CSharp_Projetos\CaixaVerso\ExercicioAula1\obj\Debug\net9.0\ref\ExercicioAula1.dll
