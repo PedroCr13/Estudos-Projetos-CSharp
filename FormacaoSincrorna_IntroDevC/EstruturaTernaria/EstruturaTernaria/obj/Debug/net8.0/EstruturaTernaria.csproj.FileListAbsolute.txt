@@ -1,0 +1,14 @@
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\bin\Debug\net8.0\EstruturaTernaria.exe
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\bin\Debug\net8.0\EstruturaTernaria.deps.json
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\bin\Debug\net8.0\EstruturaTernaria.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\bin\Debug\net8.0\EstruturaTernaria.dll
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\bin\Debug\net8.0\EstruturaTernaria.pdb
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.dll
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\refint\EstruturaTernaria.dll
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.pdb
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\EstruturaTernaria.genruntimeconfig.cache
+C:\Users\pedro\OneDrive\Documentos\projetoscharp\EstruturaTernaria\EstruturaTernaria\obj\Debug\net8.0\ref\EstruturaTernaria.dll

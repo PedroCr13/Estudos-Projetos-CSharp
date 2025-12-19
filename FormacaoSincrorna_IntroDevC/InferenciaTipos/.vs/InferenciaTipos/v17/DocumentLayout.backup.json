@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\pedro\\OneDrive\\Documentos\\projetoscharp\\InferenciaTipos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C82E0A6F-6994-4D3D-9CB5-02C1623103A7}|InferenciaTipos\\InferenciaTipos.csproj|c:\\users\\pedro\\onedrive\\documentos\\projetoscharp\\inferenciatipos\\inferenciatipos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C82E0A6F-6994-4D3D-9CB5-02C1623103A7}|InferenciaTipos\\InferenciaTipos.csproj|solutionrelative:inferenciatipos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pedro\\OneDrive\\Documentos\\projetoscharp\\InferenciaTipos\\InferenciaTipos\\Program.cs",
+              "RelativeDocumentMoniker": "InferenciaTipos\\Program.cs",
+              "ToolTip": "C:\\Users\\pedro\\OneDrive\\Documentos\\projetoscharp\\InferenciaTipos\\InferenciaTipos\\Program.cs",
+              "RelativeToolTip": "InferenciaTipos\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-01T12:24:43.992Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
