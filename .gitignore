@@ -1,0 +1,49 @@
+# Ignorar arquivos temporários do Visual Studio
+.vs/
+
+# Arquivos e pastas do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Arquivos temporários
+*.tmp
+*.log
+*.cache
+*.pdb
+
+# Pacotes NuGet
+*.nupkg
+packages/
+
+# Configurações locais
+*.dbmdl
+*.jfm
+*.ldf
+*.mdf
+
+# Testes e resultados
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Arquivos gerados pelo sistema
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos de backup
+*.bak
+*.swp
+*.zip
+*.tar
+*.gz
