@@ -14,7 +14,7 @@ namespace ExercicioComposicaoOrder.Pricipal
             Console.WriteLine("Name: ");
             string nameClient = Console.ReadLine();
 
-            Console.WriteLine("Email: ");
+            Console.WriteLine("Enter your Email: ");
             string email = Console.ReadLine();
 
             Console.WriteLine("Enter birth date: ");
