@@ -47,3 +47,6 @@ Desktop.ini
 *.zip
 *.tar
 *.gz
+
+# Outros Arquivos
+*.pdf

@@ -16,9 +16,8 @@ Projetos e exercícios realizados durante o curso da **ADA**.
 Projetos desenvolvidos durante o curso de **C# na Udemy**.  
 
 
-### 🔹 Microsoft Apostila
+### 🔹 Microsoft Apostila C# Para Iniciantes
 Exemplos e práticas da **apostila oficial da Microsoft**.  
-
 
 ## Como clonar este repositório
 ```bash
