@@ -12,8 +12,12 @@ O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos apren
 ### 🔹 ADA
 Projetos e exercícios realizados durante o curso de formação Dev C# **ADA**.  
 
-### 🔹 Udemy
-Projetos desenvolvidos durante o curso de **C# na Udemy**.  
+### 🔹 Demais Cursos e Udemy
+
+Projetos em desenvolvimento durante os cursos de **C# na Udemy**.
+
+- Criando API's RESTful com Web API, Entity Framework e MySQL (em andamento)
+- C# COMPLETO Programação Orientada a Objetos (em andamento)
 
 ### 🔹 Microsoft Apostila C# Para Iniciantes
 Exemplos e práticas da **apostila oficial da Microsoft**.  
