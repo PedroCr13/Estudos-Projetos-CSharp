@@ -10,7 +10,7 @@ O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos apren
 ##  Organização dos Projetos
 
 ### 🔹 ADA
-Projetos e exercícios realizados durante o curso de formação Dev C# **ADA**.  
+Projetos e exercícios realizados durante o curso de formação Dev C# **ADA** (em andamento).
 
 ### 🔹 Demais Cursos e Udemy
 

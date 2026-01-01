@@ -12,7 +12,7 @@ O objetivo é aplicar **Programação Orientada a Objetos (POO)** com foco em **
 
 ---
 
-## Enunciado da atividade
+## atividade
 Criar a classe **ContaBancaria** aplicando rigorosamente o **Encapsulamento** para garantir a integridade dos dados:
 
 - Atributos privados: `_numeroConta` e `_saldo`.
