@@ -19,7 +19,7 @@ builder.Services.AddDbContext<BibliotecaContext>(options =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<LivroService>();
+builder.Services.AddScoped<LivrosService>();
 
 var app = builder.Build();
 

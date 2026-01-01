@@ -4,11 +4,11 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Biblioteca.Api.Service
 {
-    public class LivroService
+    public class LivrosService
     {
         private readonly BibliotecaContext _context;
 
-        public LivroService(BibliotecaContext context)
+        public LivrosService(BibliotecaContext context)
         {
             _context = context;
         }

@@ -1,7 +1,6 @@
 ﻿using Biblioteca.Api.Models.Entities;
 using Biblioteca.Api.Service;
 using Microsoft.AspNetCore.Mvc;
-using System.Data.SqlTypes;
 
 namespace Biblioteca.Api.Controllers
 {
@@ -9,10 +8,10 @@ namespace Biblioteca.Api.Controllers
     [Route("api/[controller]")]
     public class LivrosController : ControllerBase
     {
-        private readonly LivroService _service;
+        private readonly LivrosService _service;
 
         // o .net irá fornecer automaticamentea context (program)
-        public LivrosController(LivroService service)
+        public LivrosController(LivrosService service)
         {
             _service = service;
         }
