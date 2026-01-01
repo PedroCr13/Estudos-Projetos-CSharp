@@ -14,7 +14,7 @@ Projetos e exercícios realizados durante o curso de formação Dev C# **ADA** (
 
 ### 🔹 Demais Cursos e Udemy
 
-Projetos em desenvolvimento durante os cursos de **C# na Udemy**.
+Projetos em desenvolvimento durante os cursos de **C# na Udemy**
 
 - Criando API's RESTful com Web API, Entity Framework e MySQL (em andamento)
 - C# COMPLETO Programação Orientada a Objetos (em andamento)
@@ -22,8 +22,11 @@ Projetos em desenvolvimento durante os cursos de **C# na Udemy**.
 ### 🔹 Microsoft Apostila C# Para Iniciantes
 Exemplos e práticas da **apostila oficial da Microsoft**.  
 
+### 🔹Demais Fontes
+- Demais fontes de estudos
+
 ### 🔹APIs
-Desenvolvimento de APIs
+Desenvolvimento de APIs (em andamento)
 
 ## Como clonar este repositório
 ```bash
