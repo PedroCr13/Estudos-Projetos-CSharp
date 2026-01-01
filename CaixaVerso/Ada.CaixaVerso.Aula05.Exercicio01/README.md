@@ -1,3 +1,14 @@
+![C#](https://img.shields.io/badge/C%23-Programming-239120?style=for-the-badge&logo=csharp&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Console App](https://img.shields.io/badge/Console-Application-000000?style=for-the-badge&logo=windows-terminal&logoColor=white)
+
+![POO](https://img.shields.io/badge/Paradigma-POO-blue?style=for-the-badge)
+![Encapsulamento](https://img.shields.io/badge/Conceito-Encapsulamento-success?style=for-the-badge)
+
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen?style=for-the-badge)
+![Curso](https://img.shields.io/badge/Curso-ADA%20%7C%20Forma%C3%A7%C3%A3o%20Caixa%20Verso-orange?style=for-the-badge)
+![Nível](https://img.shields.io/badge/N%C3%ADvel-1%20(Fundamentos)-yellow?style=for-the-badge)
+
 # Simulador bancário - Projeto C#
 
 Este projeto foi desenvolvido como um dos exercícios do curso **Formação Caixa Verso - ADA** nivel 1 (fundamentos).  
