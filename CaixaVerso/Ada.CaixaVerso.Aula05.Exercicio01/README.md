@@ -1,6 +1,6 @@
-# Simulador de Banco - Projeto C#
+# Simulador bancário - Projeto C#
 
-Este projeto foi desenvolvido como exercício do curso **Formação Caixa Verso - ADA**.  
+Este projeto foi desenvolvido como um dos exercícios do curso **Formação Caixa Verso - ADA** nivel 1 (fundamentos).  
 O objetivo é aplicar **Programação Orientada a Objetos (POO)** com foco em **Encapsulamento**, simulando operações básicas de um banco.
 
 ---
