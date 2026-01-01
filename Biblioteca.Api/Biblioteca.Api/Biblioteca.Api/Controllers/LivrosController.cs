@@ -1,7 +1,6 @@
-﻿using Biblioteca.Api.Models.Context;
-using Biblioteca.Api.Models.Entities;
+﻿using Biblioteca.Api.Models.Entities;
+using Biblioteca.Api.Service;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Data.SqlTypes;
 
 namespace Biblioteca.Api.Controllers
@@ -10,67 +9,41 @@ namespace Biblioteca.Api.Controllers
     [Route("api/[controller]")]
     public class LivrosController : ControllerBase
     {
-        private readonly BibliotecaContext _context;
+        private readonly LivroService _service;
 
         // o .net irá fornecer automaticamentea context (program)
-        public LivrosController(BibliotecaContext context)
+        public LivrosController(LivroService service)
         {
-            _context = context;
+            _service = service;
         }
 
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Livro>>> GetLivros()
         {
-            return await _context.Livros.ToListAsync();
+            return await _service.ListarLivrosAsync();
         }
 
         [HttpGet("{id}")]
         public async Task<ActionResult<Livro>> GetLivro(int id)
-        { 
-            var Livro = await _context.Livros.FindAsync(id);
-
-            if (Livro == null)
-            {
-                return NotFound();
-            }
-
-            return Livro;
+        {
+            return await _service.BuscarPorIdAsync(id);
         }
 
         [HttpPost]
         public async Task<ActionResult<Livro>> PostLivro(Livro livro)
         {
-            _context.Livros.Add(livro);
-            await _context.SaveChangesAsync();
+            var novoLivro = await _service.CriarLivroAsync(livro);
 
-            return CreatedAtAction(nameof(GetLivro), new { id = livro.Id}, livro);
+            return CreatedAtAction(nameof(GetLivro), new { id = novoLivro.Id}, novoLivro);
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutLivro(int id, Livro livro)
         {
-            if (id != livro.Id)
-            { 
-                return BadRequest();
-            }
+            var atualizado = await _service.AtualizarLivroAsync(id, livro);
 
-            _context.Entry(livro).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!_context.Livros.Any(e => e.Id == id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
+            if (!atualizado)
+                return NotFound();
 
             return NoContent();
         }
@@ -78,15 +51,9 @@ namespace Biblioteca.Api.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteLivro(int id)
         {
-            var livro = await _context.Livros.FindAsync(id);
-
-            if (livro == null)
-            {
+            var removido = await _service.RemoverLivroAsync(id);
+            if (!removido)
                 return NotFound();
-            }
-
-            _context.Livros.Remove(livro);
-            await _context.SaveChangesAsync();
 
             return NoContent();
         }
