@@ -14,6 +14,7 @@ namespace Biblioteca.Api.Models.Entities
 
         [Required(ErrorMessage = "Necessário informar edição deste livro.")]
         public string Edicao { get; set; }
+       
         [Range(1, Int32.MaxValue, ErrorMessage = "Numero de páginas deve estar entre {1} e {2}")]
         public int NumeroPagina { get; set; }
         public decimal Preco { get; set; }
