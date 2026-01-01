@@ -7,7 +7,7 @@
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-brightgreen?logo=swagger)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-API REST desenvolvida em ASP.NET Core para gerenciamento de livros em uma biblioteca.
+API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em uma biblioteca.
 
 ---
 
@@ -18,6 +18,14 @@ API REST desenvolvida em ASP.NET Core para gerenciamento de livros em uma biblio
 - Listagem de todos os livros
 - Atualização de dados de um livro
 - Remoção de livros
+
+## Organização
+
+Classes organizadas em diertórios: 
+
+- Model 
+- Service 
+- Controller
 
 ## Endpoints
 

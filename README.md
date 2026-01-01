@@ -10,14 +10,16 @@ O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos apren
 ##  Organização dos Projetos
 
 ### 🔹 ADA
-Projetos e exercícios realizados durante o curso da **ADA**.  
+Projetos e exercícios realizados durante o curso de formação Dev C# **ADA**.  
 
 ### 🔹 Udemy
 Projetos desenvolvidos durante o curso de **C# na Udemy**.  
 
-
 ### 🔹 Microsoft Apostila C# Para Iniciantes
 Exemplos e práticas da **apostila oficial da Microsoft**.  
+
+### 🔹APIs
+Desenvolvimento de APIs
 
 ## Como clonar este repositório
 ```bash

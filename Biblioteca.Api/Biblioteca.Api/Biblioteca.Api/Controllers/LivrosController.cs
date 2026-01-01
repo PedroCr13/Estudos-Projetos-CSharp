@@ -10,7 +10,7 @@ namespace Biblioteca.Api.Controllers
     {
         private readonly LivrosService _service;
 
-        // o .net irá fornecer automaticamentea context (program)
+        // o .net irá fornecer automaticamentea service (esta registrada na program)
         public LivrosController(LivrosService service)
         {
             _service = service;
