@@ -19,7 +19,7 @@ namespace Biblioteca.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Livro>>> GetLivros(int id)
+        public async Task<ActionResult<IEnumerable<Livro>>> GetLivros()
         {
             return await _context.Livros.ToListAsync();
         }
