@@ -36,7 +36,6 @@ namespace Biblioteca.Api.Service
                 return false;
 
             _context.Entry(livro).State = EntityState.Modified;
-
             try
             {
                 await _context.SaveChangesAsync();
