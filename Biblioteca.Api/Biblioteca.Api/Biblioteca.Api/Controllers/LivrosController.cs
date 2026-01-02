@@ -33,9 +33,20 @@ namespace Biblioteca.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Livro>>> GetLivros()
+        public async Task<ActionResult<IEnumerable<Livro>>> GetLivros(int pagina = 1, int quantidade = 10)
         {
-            return await _service.ListarLivrosAsync();
+            if (pagina <= 0 || quantidade <= 0)
+                return BadRequest("Parêmtros página e quantidade devem ser maiores que 0.");
+
+            if (quantidade > 10)
+                return BadRequest("O tamanho máximo de página é 10");
+
+            var livros = await _service.ListarLivrosAsync(pagina, quantidade);
+
+            if (livros == null || livros.Count == 0)
+                return NotFound("Nenhum livro encontrado para esta página");
+
+            return Ok(livros);
         }
 
         [HttpGet("{id}")]

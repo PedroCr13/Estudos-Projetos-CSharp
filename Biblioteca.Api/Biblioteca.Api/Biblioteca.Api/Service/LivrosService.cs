@@ -13,9 +13,16 @@ namespace Biblioteca.Api.Service
             _context = context;
         }
 
-        public async Task<List<Livro>> ListarLivrosAsync()
+        public async Task<List<Livro>> ListarLivrosAsync(int pagina = 1, int quantidade = 10)
         {
-            return await _context.Livros.ToListAsync();  
+            if (pagina <= 0 || quantidade <= 0 || quantidade > 10)
+                return new List<Livro>();
+
+            return await _context.Livros
+                .OrderBy(l => l.Id)
+                .Skip((pagina - 1) * quantidade)
+                .Take(quantidade)
+                .ToListAsync();
         }
 
         public async Task<Livro?> BuscarPorIdAsync(int id)
