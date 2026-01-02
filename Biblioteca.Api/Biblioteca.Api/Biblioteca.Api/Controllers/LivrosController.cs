@@ -41,12 +41,16 @@ namespace Biblioteca.Api.Controllers
             if (quantidade > 10)
                 return BadRequest("O tamanho máximo de página é 10");
 
-            var livros = await _service.ListarLivrosAsync(pagina, quantidade);
+            var resultado = await _service.ListarLivrosAsync(pagina, quantidade);
 
-            if (livros == null || livros.Count == 0)
+            if (resultado.Livros == null || resultado.Livros.Count == 0)
                 return NotFound("Nenhum livro encontrado para esta página");
 
-            return Ok(livros);
+            Response.Headers.Append("X-Desenvolvedor", "Pedro Cristovao");
+            Response.Headers.Append("X-Paginacao-TotalPaginas", resultado.TotalPaginas.ToString());
+            Response.Headers.Append("X-Paginacao-PaginaAtual", pagina.ToString());
+
+            return Ok(resultado.Livros);
         }
 
         [HttpGet("{id}")]
