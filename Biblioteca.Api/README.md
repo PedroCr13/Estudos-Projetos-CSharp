@@ -7,7 +7,7 @@
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-brightgreen?logo=swagger)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em uma biblioteca.
+API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em uma biblioteca com Entity Framework Core
 
 ---
 
@@ -23,9 +23,9 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 
 Classes organizadas em dietórios: 
 
-- Model
+- Model 
 - Service 
-- Controller
+- Controllers
 - DTOs
 - Mappers
 
@@ -43,6 +43,7 @@ Classes organizadas em dietórios:
 
 - ASP.NET Core 8
 - Entity Framework Core
+- Fluent API (mapeamento do banco de dados)
 - Pomelo.EntityFrameworkCore.MySql
 - MySQL 8.0.40
 - Swagger / OpenAPI

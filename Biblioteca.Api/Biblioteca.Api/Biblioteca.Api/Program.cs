@@ -9,6 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var modelBuilder = new ODataConventionModelBuilder();
 modelBuilder.EntitySet<Livro>("Livros");
+modelBuilder.EntitySet<Autor>("Autores");
 
 // Add services to the container.
 
