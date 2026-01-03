@@ -19,13 +19,15 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 - Atualização de dados de um livro
 - Remoção de livros
 
-## Organização
+## Organização projeto
 
-Classes organizadas em diertórios: 
+Classes organizadas em dietórios: 
 
-- Model 
+- Model
 - Service 
 - Controller
+- DTOs
+- Mappers
 
 ## Endpoints
 

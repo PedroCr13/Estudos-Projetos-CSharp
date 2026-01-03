@@ -71,6 +71,11 @@ namespace Biblioteca.Api.Service
             _context.Livros.Remove(livro);
             await _context.SaveChangesAsync();
             return true;
-        } 
+        }
+
+        public IQueryable<Livro> QueryLivros()
+        {
+            return _context.Livros.AsQueryable();
+        }
     }
 }

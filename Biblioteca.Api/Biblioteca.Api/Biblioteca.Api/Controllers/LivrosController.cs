@@ -14,6 +14,8 @@
     500 Internal Server Error, erro interno, erro de programação
 */
 
+using Biblioteca.Api.DTOs;
+using Biblioteca.Api.Mappers;
 using Biblioteca.Api.Models.Entities;
 using Biblioteca.Api.Service;
 using Microsoft.AspNetCore.Mvc;
@@ -33,7 +35,7 @@ namespace Biblioteca.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Livro>>> GetLivros(int pagina = 1, int quantidade = 10)
+        public async Task<ActionResult<IEnumerable<LivroDTO>>> GetLivros(int pagina = 1, int quantidade = 10)
         {
             if (pagina <= 0 || quantidade <= 0)
                 return BadRequest("Parêmtros página e quantidade devem ser maiores que 0.");
@@ -46,15 +48,17 @@ namespace Biblioteca.Api.Controllers
             if (resultado.Livros == null || resultado.Livros.Count == 0)
                 return NotFound("Nenhum livro encontrado para esta página");
 
+            var livroDto = resultado.Livros.Select(LivroMapper.ToDto).ToList();
+
             Response.Headers.Append("X-Desenvolvedor", "Pedro Cristovao");
             Response.Headers.Append("X-Paginacao-TotalPaginas", resultado.TotalPaginas.ToString());
             Response.Headers.Append("X-Paginacao-PaginaAtual", pagina.ToString());
 
-            return Ok(resultado.Livros);
+            return Ok(livroDto);
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Livro>> GetLivro(int id)
+        public async Task<ActionResult<LivroDTO>> GetLivro(int id)
         {
             if (id <= 0)
                 return BadRequest("O código do livro deve ser maior que 0.");
@@ -63,20 +67,25 @@ namespace Biblioteca.Api.Controllers
             if (livro == null)
                 return NotFound();
 
-            return Ok(livro);
+            var livroDto = LivroMapper.ToDto(livro);
+
+            return Ok(livroDto);
         }
 
         [HttpPost]
-        public async Task<ActionResult<Livro>> PostLivro(Livro livro)
+        public async Task<ActionResult<LivroDTO>> PostLivro(LivroDTO dto)
         {
+            var livro = LivroMapper.ToEntity(dto);
             var novoLivro = await _service.CriarLivroAsync(livro);
+            var livroDto = LivroMapper.ToDto(novoLivro);
 
-            return CreatedAtAction(nameof(GetLivro), new { id = novoLivro.Id}, novoLivro);
+            return CreatedAtAction(nameof(GetLivro), new { id = novoLivro.Id}, livroDto);
         }
 
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutLivro(int id, Livro livro)
+        public async Task<IActionResult> PutLivro(int id, LivroDTO livroDto)
         {
+            var livro = LivroMapper.ToEntity(livroDto);
             var atualizado = await _service.AtualizarLivroAsync(id, livro);
 
             if (!atualizado)
