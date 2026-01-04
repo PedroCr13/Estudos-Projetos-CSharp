@@ -7,6 +7,20 @@
 Este repositório reúne exercícios e projetos menores desenvolvidos em **C#**, organizados por cursos e materiais de estudo.  
 O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos aprendidos em diferentes contextos.
 
+## ⭐ Projetos em Destaque
+
+### 📚 Biblioteca.Api
+
+API REST desenvolvida em ASP.NET Core 8 para gerenciamento de livros e autores.
+
+🔹 CRUD  
+🔹 Entity Framework Core + MySQL  
+🔹 Validações com Fluent Validation  
+🔹 Swagger / OpenAPI  
+🔹 Organização em camadas (Controllers, Services, DTOs, Mappers)
+
+👉 [Acessar o projeto](./Biblioteca.Api)
+
 ##  Organização dos Projetos
 
 ### 🔹 ADA
