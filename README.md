@@ -7,8 +7,6 @@
 Este repositório reúne exercícios e projetos menores desenvolvidos em **C#**, organizados por cursos e materiais de estudo.  
 O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos aprendidos em diferentes contextos.
 
-> Repositório mantido para fins de estudo.
-
 ##  Organização dos Projetos
 
 ### 🔹 ADA
