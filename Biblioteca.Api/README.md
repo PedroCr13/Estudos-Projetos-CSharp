@@ -66,8 +66,12 @@ Classes organizadas em diretórios:
 
 ## Como executar o projeto
 
-1. Clone o repositório:
+1. Clone o repositório de Projetos:
    ```bash
-   git clone https://github.com/seu-usuario/Biblioteca.Api.git
+   git clone https://github.com/PedroCr13/Estudos-Projetos-Charp.git
+
+2. Acesse a pasta do projeto:    
+   ```bash
+   cd Estudos-Projetos-Charp/Biblioteca.Api
 
 2. Execute no Visual Studio

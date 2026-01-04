@@ -44,6 +44,13 @@ Criar a classe **ContaBancaria** aplicando rigorosamente o **Encapsulamento** pa
 ---
 
 ## Como executar
-1. Clone este repositório:
+1. Clone o repositório de Projetos:
    ```bash
-   git clone https://github.com/SEU_USUARIO/NOME_REPOSITORIO.git
+   git clone https://github.com/PedroCr13/Estudos-Projetos-Charp.git
+
+2. Acesse a pasta do projeto:    
+   ```bash
+   cd Estudos-Projetos-Charp/CaixaVerso/Ada.CaixaVerso.Aula05.Exercicio01
+
+2. Execute no Visual Studio
+   
