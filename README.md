@@ -7,6 +7,8 @@
 Este repositório reúne exercícios e projetos menores desenvolvidos em **C#**, organizados por cursos e materiais de estudo.  
 O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos aprendidos em diferentes contextos.
 
+> Repositório mantido para fins de estudo e demonstração de evolução em C# e .NET.
+
 ##  Organização dos Projetos
 
 ### 🔹 ADA
@@ -27,6 +29,18 @@ Exemplos e práticas da **apostila oficial da Microsoft**.
 
 ### 🔹APIs
 Desenvolvimento de APIs (em andamento)
+
+## Tecnologias Utilizadas
+- C#
+- .NET
+- ASP.NET Web API
+- Entity Framework (em estudo)
+- MySQL (em estudo)
+
+## Como executar os projetos
+1. Clone o repositório
+2. Abra o projeto desejado no Visual Studio
+3. Execute o projeto pressionando F5 ou Ctrl + F5 ou ainda no power shell do Visual Studio: dotnet build, dotnet run
 
 ## Como clonar este repositório
 ```bash
