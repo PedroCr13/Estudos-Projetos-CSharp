@@ -22,7 +22,7 @@ Projetos em desenvolvimento durante os cursos de **C# na Udemy**
 
 - Criando API's RESTful com Web API, Entity Framework e MySQL (em andamento)
 - C# COMPLETO Programação Orientada a Objetos (em andamento)
-- Criando APIs robustas em C#
+- Criando APIs robustas em C# Prof. Paulo Rogério
 
 ### 🔹 Microsoft Apostila C# Para Iniciantes
 Exemplos e práticas da **apostila oficial da Microsoft**.  
