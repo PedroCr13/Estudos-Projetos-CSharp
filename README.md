@@ -18,7 +18,7 @@ Projetos em desenvolvimento durante os cursos de **C# na Udemy**
 
 ### Cursos em andamento
 
-- Criando API's RESTful com Web API, Entity Framework e MySQL (em andamento)
+- Criando APIs RESTful com Web API, Entity Framework e MySQL (em andamento)
 - C# COMPLETO Programação Orientada a Objetos (em andamento)
 - Criando APIs robustas em C# Prof. Paulo Rogério
 

@@ -14,30 +14,39 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 ## Funcionalidades
 
 - Cadastro de livros
-- Consulta de livros por ID
+- Consulta de livro por ID
 - Listagem de todos os livros
 - Atualização de dados de um livro
 - Remoção de livros
+- Cadastro de autores
+- Consulta de autores
 
-## Organização projeto
+## Organização do Projeto
 
-Classes organizadas em dietórios: 
+Classes organizadas em diretórios: 
 
-- Model 
-- Service 
-- Controllers
-- DTOs
-- Mappers
-- Validations
+- Model: Entidades do domínio
+- Service: Regras de negócio
+- Controllers :Endpoints da API
+- DTOs : Objetos de transferência de dados
+- Mappers: Conversão entre entidades e DTOs
+- Validations: Validações de dados
 
 ## Endpoints
+
+## Autores:
 
 | Método | Rota               | Descrição                     |
 |--------|--------------------|-------------------------------|
 | GET    | /api/autor         | Lista todos os autores        |
 | POST   | /api/autor         | Cadastra um novo autor        |
+
+## Livros
+
+| Método | Rota               | Descrição                     |
+|--------|--------------------|-------------------------------|
 | GET    | /api/livros        | Lista todos os livros         |
-| GET    | /api/livros/{id}   | Busca um livro por ID         |
+| GET    | /api/livros/{id}   | Lista um livro por ID         |
 | POST   | /api/livros        | Cadastra um novo livro        |
 | PUT    | /api/livros/{id}   | Atualiza os dados de um livro |
 | DELETE | /api/livros/{id}   | Remove um livro               |
@@ -50,6 +59,10 @@ Classes organizadas em dietórios:
 - Pomelo.EntityFrameworkCore.MySql
 - MySQL 8.0.40
 - Swagger / OpenAPI
+
+### Pré-requisitos
+- .NET SDK 8
+- MySQL 8+
 
 ## Como executar o projeto
 
