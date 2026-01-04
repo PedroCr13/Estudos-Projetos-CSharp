@@ -7,7 +7,7 @@
 Este repositório reúne exercícios e projetos menores desenvolvidos em **C#**, organizados por cursos e materiais de estudo.  
 O objetivo é demonstrar minha evolução na linguagem e aplicar conceitos aprendidos em diferentes contextos.
 
-> Repositório mantido para fins de estudo e demonstração de evolução em C# e .NET.
+> Repositório mantido para fins de estudo.
 
 ##  Organização dos Projetos
 
@@ -18,8 +18,11 @@ Projetos e exercícios realizados durante o curso de formação Dev C# **ADA** (
 
 Projetos em desenvolvimento durante os cursos de **C# na Udemy**
 
+### Cursos em andamento
+
 - Criando API's RESTful com Web API, Entity Framework e MySQL (em andamento)
 - C# COMPLETO Programação Orientada a Objetos (em andamento)
+- Criando APIs robustas em C#
 
 ### 🔹 Microsoft Apostila C# Para Iniciantes
 Exemplos e práticas da **apostila oficial da Microsoft**.  
