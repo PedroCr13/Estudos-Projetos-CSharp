@@ -28,11 +28,14 @@ Classes organizadas em dietórios:
 - Controllers
 - DTOs
 - Mappers
+- Validations
 
 ## Endpoints
 
 | Método | Rota               | Descrição                     |
 |--------|--------------------|-------------------------------|
+| GET    | /api/autor         | Lista todos os autores        |
+| POST   | /api/autor         | Cadastra um novo autor        |
 | GET    | /api/livros        | Lista todos os livros         |
 | GET    | /api/livros/{id}   | Busca um livro por ID         |
 | POST   | /api/livros        | Cadastra um novo livro        |
