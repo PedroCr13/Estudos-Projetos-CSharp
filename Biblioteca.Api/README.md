@@ -13,13 +13,13 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 
 ## Funcionalidades
 
-- Cadastro de livros
+- Cadastro de livros (lista)
 - Consulta de livro por ID
 - Listagem de todos os livros
 - Atualização de dados de um livro
 - Remoção de livros
 - Cadastro de autores
-- Consulta de autores
+- Consulta de autores (lista)
 
 ## Organização do Projeto
 
@@ -27,7 +27,7 @@ Classes organizadas em diretórios:
 
 - Model: Entidades do domínio
 - Service: Regras de negócio
-- Controllers :Endpoints da API
+- Controllers: Endpoints da API
 - DTOs : Objetos de transferência de dados
 - Mappers: Conversão entre entidades e DTOs
 - Validations: Validações de dados
@@ -69,3 +69,5 @@ Classes organizadas em diretórios:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/Biblioteca.Api.git
+
+2. Execute no Visual Studio
