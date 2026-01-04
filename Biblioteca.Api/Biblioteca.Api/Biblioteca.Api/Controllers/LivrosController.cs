@@ -16,8 +16,8 @@
 
 using Biblioteca.Api.DTOs;
 using Biblioteca.Api.Mappers;
-using Biblioteca.Api.Models.Entities;
 using Biblioteca.Api.Service;
+using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Biblioteca.Api.Controllers
@@ -27,11 +27,13 @@ namespace Biblioteca.Api.Controllers
     public class LivrosController : ControllerBase
     {
         private readonly LivrosService _service;
+        private readonly IValidator<LivroDTO> _validator;
 
         // o .net irá fornecer automaticamentea service (esta registrada na program)
-        public LivrosController(LivrosService service)
+        public LivrosController(LivrosService service, IValidator<LivroDTO> validator)
         {
             _service = service;
+            _validator = validator;
         }
 
         [HttpGet]

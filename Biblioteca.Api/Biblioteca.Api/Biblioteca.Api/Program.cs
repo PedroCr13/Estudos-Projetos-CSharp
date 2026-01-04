@@ -1,9 +1,12 @@
+using Biblioteca.Api.DTOs;
 using Biblioteca.Api.Models.Context;
-using Biblioteca.Api.Service;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.OData;
-using Microsoft.OData.ModelBuilder;
 using Biblioteca.Api.Models.Entities;
+using Biblioteca.Api.Service;
+using Biblioteca.Api.Validators;
+using FluentValidation;
+using Microsoft.AspNetCore.OData;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.OData.ModelBuilder;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,10 +34,17 @@ builder.Services.AddDbContext<BibliotecaContext>(options =>
 ));
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+
+// Registro de serviços para entrega da instância correta pelo Asp.Net quando pedida:
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<LivrosService>();
+builder.Services.AddScoped<AutoresService>();
+
+builder.Services.AddScoped<IValidator<AutorDTO>, AutorDtoValidator>();
+builder.Services.AddScoped<IValidator<LivroDTO>, LivroDtoValidator>();
 
 var app = builder.Build();
 
