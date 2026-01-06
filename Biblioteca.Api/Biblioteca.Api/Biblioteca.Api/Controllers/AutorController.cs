@@ -1,8 +1,11 @@
-﻿using Biblioteca.Api.DTOs;
+﻿using Biblioteca.Api.Common;
+using Biblioteca.Api.DTOs;
 using Biblioteca.Api.Mappers;
 using Biblioteca.Api.Service;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using System.Net;
 
 namespace Biblioteca.Api.Controllers
 {
@@ -48,7 +51,18 @@ namespace Biblioteca.Api.Controllers
             var result = await _validator.ValidateAsync(dto);
 
             if (!result.IsValid)
-                return BadRequest(result.Errors.Select(e => e.ErrorMessage));
+            {
+                var erros = new ErroResponse
+                {
+                    Erros = result.Errors.Select(e => new ErroItem
+                    {
+                        Campo = e.PropertyName,
+                        Mensagem = e.ErrorMessage
+                    }).ToList()
+                };
+
+                return BadRequest(erros);
+            }
 
             var autor = AutorMapper.ToEntity(dto);
             var novoAutor = await _service.CriarAutorAsync(autor);

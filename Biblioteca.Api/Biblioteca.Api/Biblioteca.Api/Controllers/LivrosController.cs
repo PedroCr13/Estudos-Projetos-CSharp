@@ -14,6 +14,7 @@
     500 Internal Server Error, erro interno, erro de programação
 */
 
+using Biblioteca.Api.Common;
 using Biblioteca.Api.DTOs;
 using Biblioteca.Api.Mappers;
 using Biblioteca.Api.Service;
@@ -77,6 +78,22 @@ namespace Biblioteca.Api.Controllers
         [HttpPost]
         public async Task<ActionResult<LivroDTO>> PostLivro(LivroDTO dto)
         {
+            var result = await _validator.ValidateAsync(dto);
+
+            if (!result.IsValid)
+            {
+                var erros = new ErroResponse
+                {
+                    Erros = result.Errors.Select(e => new ErroItem
+                    {
+                        Campo = e.PropertyName,
+                        Mensagem = e.ErrorMessage
+
+                    }).ToList()
+                };
+                return BadRequest(erros);
+            }
+
             var livro = LivroMapper.ToEntity(dto);
             var novoLivro = await _service.CriarLivroAsync(livro);
             var livroDto = LivroMapper.ToDto(novoLivro);
@@ -87,6 +104,21 @@ namespace Biblioteca.Api.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutLivro(int id, LivroDTO livroDto)
         {
+            var result = await _validator.ValidateAsync(livroDto);
+
+            if (!result.IsValid)
+            {
+                var erros = new ErroResponse
+                {
+                    Erros = result.Errors.Select(e => new ErroItem
+                    {
+                        Campo = e.PropertyName,
+                        Mensagem = e.ErrorMessage
+                    }).ToList()
+                };
+                return BadRequest(erros);
+            }
+
             var livro = LivroMapper.ToEntity(livroDto);
             var atualizado = await _service.AtualizarLivroAsync(id, livro);
 
