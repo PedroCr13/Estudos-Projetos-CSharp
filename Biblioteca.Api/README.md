@@ -52,7 +52,7 @@ Classes organizadas em diretórios:
 | DELETE | /api/livros/{id}   | Remove um livro               |
 
 
-<img src="./Screenshot/swagger.png" width="800" />
+<img src="./Screenshot/swagger.png" width="600" />
 <br>
 
 ## Tecnologias utilizadas
