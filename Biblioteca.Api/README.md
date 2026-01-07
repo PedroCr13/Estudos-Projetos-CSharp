@@ -51,6 +51,10 @@ Classes organizadas em diretórios:
 | PUT    | /api/livros/{id}   | Atualiza os dados de um livro |
 | DELETE | /api/livros/{id}   | Remove um livro               |
 
+
+<img src="./Screenshot/swagger.png" width="800" />
+<br>
+
 ## Tecnologias utilizadas
 
 - ASP.NET Core 8
