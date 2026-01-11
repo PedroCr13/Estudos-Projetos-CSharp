@@ -11,8 +11,9 @@ namespace Biblioteca.Api.Models.Entities
         public string Edicao { get; set; }
         public int NumeroPagina { get; set; }
         public decimal Preco { get; set; }
-        public string Editora { get; set; }
         public string? SiteLivro { get; set; }
         public string? EmailAutor { get; set; }    
+        public int Id_editora { get; set; }
+        public Editora Editora { get; set; }
     }
 }

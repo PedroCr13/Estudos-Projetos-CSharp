@@ -15,15 +15,18 @@ namespace Biblioteca.Api.Validators
                 .NotEmpty().WithMessage("A edição do livro é obrigatória")
                 .MaximumLength(50).WithMessage("A edição não deve passar de {MaxLength} caracteres");
 
+            RuleFor(l => l.NumeroPagina)
+                .GreaterThan(0).WithMessage("O número de páginas deve ser maior que zero.");
+
             RuleFor(l => l.Preco)
                 .GreaterThan(0).WithMessage("O preço deve ser maior que zero")
                 .PrecisionScale(18, 2, true).WithMessage("O preço deve ter no máximo 18 digitos e 2 casas decimais");
 
-            RuleFor(l => l.Editora)
-                .MaximumLength(150).WithMessage("O nome da editora não deve ser maior do que {MaxLength} caracteres");
+            RuleFor(l => l.Id_editora)
+                .GreaterThan(0).WithMessage("É necessário informar uma editora válida!");
 
             RuleFor(l => l.EmailAutor)
-                .NotEmpty().WithMessage("o email do autor é obrigatório")
+                .NotEmpty().WithMessage("O email do autor é obrigatório")
                 .EmailAddress().WithMessage("Informe um email válido");
         }
     }

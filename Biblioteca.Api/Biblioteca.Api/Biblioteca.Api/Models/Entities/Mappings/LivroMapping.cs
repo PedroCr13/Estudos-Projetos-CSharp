@@ -8,30 +8,32 @@ namespace Biblioteca.Api.Models.Entities.Mappings
         public void Configure(EntityTypeBuilder<Livro> builder)
         {
             builder.ToTable("Livros");
-            builder.HasKey(e => e.Id);
+            builder.HasKey(l => l.Id);
 
-            builder.Property(e => e.Nome)
+            builder.Property(l => l.Nome)
                 .IsRequired()
                 .HasMaxLength(200);
 
-            builder.Property(e => e.Edicao)
+            builder.Property(l => l.Edicao)
                 .IsRequired()
                 .HasMaxLength(50);
 
-            builder.Property(e => e.NumeroPagina)
+            builder.Property(l => l.NumeroPagina)
                 .IsRequired();
 
-            builder.Property(e => e.Preco)
+            builder.Property(l => l.Preco)
                 .HasPrecision(18, 2);
 
-            builder.Property(e => e.Editora)
-                .HasMaxLength(150);
-
-            builder.Property(e => e.SiteLivro)
+            builder.Property(l => l.SiteLivro)
                 .HasColumnType("longtext");
 
-            builder.Property(e => e.EmailAutor)
+            builder.Property(l => l.EmailAutor)
                 .HasMaxLength(200);
+
+            builder.HasOne(l => l.Editora)
+                .WithMany(e => e.Livros)
+                .HasForeignKey(l => l.Id_editora)
+                .OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

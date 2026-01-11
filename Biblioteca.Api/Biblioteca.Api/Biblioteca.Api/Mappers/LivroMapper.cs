@@ -1,6 +1,5 @@
 ﻿using Biblioteca.Api.DTOs;
 using Biblioteca.Api.Models.Entities;
-using Microsoft.JSInterop.Infrastructure;
 
 namespace Biblioteca.Api.Mappers
 {
@@ -15,7 +14,7 @@ namespace Biblioteca.Api.Mappers
                 Edicao = livro.Edicao,
                 NumeroPagina = livro.NumeroPagina,
                 Preco = livro.Preco,
-                Editora = livro.Editora,
+                Id_editora = livro.Id_editora,
                 SiteLivro = livro.SiteLivro,
                 EmailAutor = livro.EmailAutor
             };
@@ -30,7 +29,7 @@ namespace Biblioteca.Api.Mappers
                 Edicao = dto.Edicao,
                 NumeroPagina = dto.NumeroPagina,
                 Preco = dto.Preco,
-                Editora = dto.Editora,
+                Id_editora = dto.Id_editora,
                 SiteLivro = dto.SiteLivro,
                 EmailAutor = dto.EmailAutor
             };
