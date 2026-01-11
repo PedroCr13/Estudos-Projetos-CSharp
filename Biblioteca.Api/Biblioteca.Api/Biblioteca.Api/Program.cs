@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 var modelBuilder = new ODataConventionModelBuilder();
 modelBuilder.EntitySet<Livro>("Livros");
 modelBuilder.EntitySet<Autor>("Autores");
+modelBuilder.EntitySet<Editora>("Editoras");
 
 // Add services to the container.
 
@@ -45,6 +46,7 @@ builder.Services.AddScoped<AutoresService>();
 
 builder.Services.AddScoped<IValidator<AutorDTO>, AutorDtoValidator>();
 builder.Services.AddScoped<IValidator<LivroDTO>, LivroDtoValidator>();
+builder.Services.AddScoped<IValidator<EditoraDTO>, EditoraDtoValidator>();
 
 var app = builder.Build();
 
