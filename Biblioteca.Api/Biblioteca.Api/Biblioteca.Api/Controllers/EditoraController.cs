@@ -28,17 +28,32 @@ namespace Biblioteca.Api.Controllers
                 return BadRequest("Parâmetro página e quantidade devem ser maiores que 0.");
 
             if (quantidade > 10)
-                return BadRequest("O tamanho máximo da ágina é 10");
+                return BadRequest("O tamanho máximo da página é 10");
 
             var resultado = await _editoraService.ListarEditorasAsync(pagina, quantidade);
 
             if (resultado.Editoras == null || resultado.Editoras.Count == 0)
-                return NotFound("Nenhum livro encontrado para esta página");
+                return NotFound("Nenhum editora encontrada para esta página");
 
             var editoraDto = resultado.Editoras.Select(EditoraMapper.ToDto).ToList();
 
             Response.Headers.Append("X-Paginacao-TotalPaginas", resultado.TotalPaginas.ToString());
             Response.Headers.Append("X-Paginacao-PaginaAtual", pagina.ToString());
+
+            return Ok(editoraDto);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<EditoraDTO>> GetEditora(int id)
+        {
+            if (id <= 0)
+                return BadRequest("O código da editora deve ser maior que 0.");
+
+            var editora = await _editoraService.BuscaPorIdAsync(id);
+            if (editora == null)
+                return NotFound();
+            
+            var editoraDto = EditoraMapper.ToDto(editora);
 
             return Ok(editoraDto);
         }
