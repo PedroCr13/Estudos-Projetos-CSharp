@@ -12,7 +12,9 @@ namespace Biblioteca.Api.Models.Entities
         public int NumeroPagina { get; set; }
         public decimal Preco { get; set; }
         public string? SiteLivro { get; set; }
-        public string? EmailAutor { get; set; }    
+        public string? EmailAutor { get; set; }
+
+        [ForeignKey("Editora")]
         public int Id_editora { get; set; }
         public Editora Editora { get; set; }
     }
