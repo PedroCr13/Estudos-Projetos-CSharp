@@ -13,7 +13,7 @@ namespace Biblioteca.Api.Mappers
                 Nome = editora.Nome,
                 Endereco = editora.Endereco,
                 Telefone = editora.Telefone,
-                Email = editora.EmailContato,
+                Email = editora.Email,
                 Site = editora.Site,
                 Observacao = editora.Observacao
             };
@@ -27,7 +27,7 @@ namespace Biblioteca.Api.Mappers
                 Nome = dto.Nome,
                 Endereco = dto.Endereco,
                 Telefone = dto.Telefone,    
-                EmailContato = dto.Email,
+                Email = dto.Email,
                 Site = dto.Site,    
                 Observacao = dto.Observacao
             };

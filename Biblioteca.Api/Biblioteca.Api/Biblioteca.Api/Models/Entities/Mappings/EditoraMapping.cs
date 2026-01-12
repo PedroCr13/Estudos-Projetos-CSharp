@@ -26,7 +26,7 @@ namespace Biblioteca.Api.Models.Entities.Mappings
             builder.Property(e => e.Site)
                 .HasColumnType("longtext");
 
-            builder.Property(e => e.EmailContato)
+            builder.Property(e => e.Email)
                 .HasColumnType("longtext");
 
             builder.Property(e => e.Observacao)

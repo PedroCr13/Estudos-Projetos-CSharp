@@ -10,7 +10,7 @@ namespace Biblioteca.Api.Models.Entities
         public string? Endereco { get; set; }
         public string? Telefone { get; set; }
         public string? Site { get; set; }
-        public string? EmailContato { get; set; }
+        public string? Email { get; set; }
         public string? Observacao { get; set; }
         public ICollection<Livro> Livros { get; set; }
     }
