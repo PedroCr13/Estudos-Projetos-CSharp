@@ -1,0 +1,9 @@
+@model IEnumerable<ProjetoMVC.Models.Produto>
+
+<h1>Lista de Produtos (MVC)</h1>
+<ul>
+    @foreach (var Produto produto in Model)
+    {
+        <li><strong>@produto.<strong/> : produto.Con</li>
+    }
+</ul>
