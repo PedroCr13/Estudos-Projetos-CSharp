@@ -143,3 +143,8 @@ Biblioteca.Api
    cd Estudos-Projetos-Charp/Biblioteca.Api
 
 2. Execute no Visual Studio
+
+⭐ Contribuição
+
+Se este projeto te ajudou ou serviu como referência, considere deixar uma ⭐ no repositório.
+Sugestões e melhorias são sempre bem-vindas!
