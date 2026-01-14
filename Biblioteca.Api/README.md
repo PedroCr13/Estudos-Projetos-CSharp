@@ -11,7 +11,7 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 
 ---
 
-## Funcionalidades
+###🚀 Funcionalidades
 
 - Cadastro de livros
 - Consulta de livro por ID
@@ -25,7 +25,7 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 - Cadastro de autores
 - Consulta de autores (lista)
 
-## Organização do Projeto
+###🏗️ Organização do Projeto
 
 Classes organizadas em diretórios: 
 
@@ -36,8 +36,8 @@ Classes organizadas em diretórios:
 - Mappers: Conversão entre entidades e DTOs
 - Validations: Validações de dados
 
+A aplicação foi organizada seguindo boas práticas de separação de responsabilidades:
 ```text
-
 Biblioteca.Api
 │
 ├── Controllers
@@ -86,16 +86,16 @@ Biblioteca.Api
 └── Program.cs
 ```
 
-## Endpoints
+###🔗 Endpoints
 
-## Autores:
+### Autores:
 
 | Método | Rota               | Descrição                     |
 |--------|--------------------|-------------------------------|
 | GET    | /api/autor         | Lista todos os autores        |
 | POST   | /api/autor         | Cadastra um novo autor        |
 
-## Editora
+### Editora
 
 | Método | Rota               | Descrição                     |
 |--------|--------------------|-------------------------------|
@@ -105,7 +105,7 @@ Biblioteca.Api
 | PUT    | /api/editora/{id}  | Atualiza dados de uma editora |
 | DELETE | /api/editora/{id}  | Remove uma editora            |
 
-## Livros
+### Livros
 
 | Método | Rota               | Descrição                     |
 |--------|--------------------|-------------------------------|
@@ -115,12 +115,11 @@ Biblioteca.Api
 | PUT    | /api/livros/{id}   | Atualiza os dados de um livro |
 | DELETE | /api/livros/{id}   | Remove um livro               |
 
-
 <br>
 <img src="./Screenshot/swagger-api.png" width="450" />
 <br>
 
-## Tecnologias utilizadas
+###🛠️ Tecnologias utilizadas
 
 - ASP.NET Core 8
 - Entity Framework Core
@@ -129,11 +128,11 @@ Biblioteca.Api
 - MySQL 8.0.40
 - Swagger / OpenAPI
 
-### Pré-requisitos
+###📋 Pré-requisitos
 - .NET SDK 8
 - MySQL 8+
 
-## Como executar o projeto
+###▶️ Como executar o projeto
 
 1. Clone o repositório de Projetos:
    ```bash
