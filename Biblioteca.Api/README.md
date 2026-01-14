@@ -1,3 +1,10 @@
+![.NET](https://img.shields.io/badge/.NET-8.0-blue?logo=dotnet)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-Web%20API-blueviolet?logo=dotnet)
+![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework-Core-green?logo=ef)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql)
+![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-brightgreen?logo=swagger)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # 📚 Biblioteca.Api
 
 API REST em desenvolvimento em **ASP.NET Core 8**, implementando um **CRUD para gerenciamento de uma biblioteca**, utilizando **Entity Framework Core** e **MySQL**.
