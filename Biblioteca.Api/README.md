@@ -36,6 +36,8 @@ Classes organizadas em diretórios:
 - Mappers: Conversão entre entidades e DTOs
 - Validations: Validações de dados
 
+```text
+
 Biblioteca.Api
 │
 ├── Controllers
@@ -82,6 +84,7 @@ Biblioteca.Api
 │
 ├── appsettings.json
 └── Program.cs
+```
 
 ## Endpoints
 
