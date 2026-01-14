@@ -43,6 +43,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<LivrosService>();
 builder.Services.AddScoped<AutoresService>();
+builder.Services.AddScoped<EditoraService>();
 
 builder.Services.AddScoped<IValidator<AutorDTO>, AutorDtoValidator>();
 builder.Services.AddScoped<IValidator<LivroDTO>, LivroDtoValidator>();

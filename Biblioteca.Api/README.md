@@ -13,11 +13,15 @@ API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em u
 
 ## Funcionalidades
 
-- Cadastro de livros (lista)
+- Cadastro de livros
 - Consulta de livro por ID
-- Listagem de todos os livros
+- Listagem de todos os livros 
 - Atualização de dados de um livro
-- Remoção de livros
+- Cadastro de editora
+- Consulta de editora por ID
+- Listagem de todas as editoras
+- Atualização de dados de uma editora
+- Remoção de editora
 - Cadastro de autores
 - Consulta de autores (lista)
 
@@ -41,6 +45,16 @@ Classes organizadas em diretórios:
 | GET    | /api/autor         | Lista todos os autores        |
 | POST   | /api/autor         | Cadastra um novo autor        |
 
+## Editora
+
+| Método | Rota               | Descrição                     |
+|--------|--------------------|-------------------------------|
+| GET    | /api/editora       | Lista todas as editoras       |
+| GET    | /api/editora/{id}  | Lista uma editora por ID      |
+| POST   | /api/editora       | Cadastra uma editora          |  
+| PUT    | /api/editora/{id}  | Atualiza dados de uma editora |
+| DELETE | /api/editora/{id}  | Remove uma editora            |
+
 ## Livros
 
 | Método | Rota               | Descrição                     |
@@ -53,7 +67,7 @@ Classes organizadas em diretórios:
 
 
 <br>
-<img src="./Screenshot/swagger.png" width="450" />
+<img src="./Screenshot/swagger-api.png" width="450" />
 <br>
 
 ## Tecnologias utilizadas

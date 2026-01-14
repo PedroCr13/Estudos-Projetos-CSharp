@@ -16,6 +16,7 @@ namespace Biblioteca.Api.Models.Context
         // Mapeando a tabela livros para o SQl
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
             modelBuilder.ApplyConfiguration(new AutorMapping());
             modelBuilder.ApplyConfiguration(new LivroMapping());
             modelBuilder.ApplyConfiguration(new EditoraMapping());
