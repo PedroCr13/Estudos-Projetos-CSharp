@@ -36,6 +36,53 @@ Classes organizadas em diretórios:
 - Mappers: Conversão entre entidades e DTOs
 - Validations: Validações de dados
 
+Biblioteca.Api
+│
+├── Controllers
+│   ├── AutorController.cs
+│   ├── EditoraController.cs
+│   └── LivrosController.cs
+│
+├── DTOs
+│   ├── AutorDTO.cs
+│   ├── EditoraDTO.cs
+│   └── LivroDTO.cs
+│
+├── Service
+│   ├── AutorService.cs
+│   ├── EditoraService.cs
+│   └── LivrosService.cs
+│
+├── Validators
+│   ├── AutorDtoValidator.cs
+│   ├── EditoraDtoValidator.cs
+│   └── LivroDtoValidator.cs
+│
+├── Mappers
+│   ├── AutorMapper.cs
+│   ├── EditoraMapper.cs
+│   └── LivroMapper.cs
+│
+├── Models
+│   ├── Entities
+│   │   ├── Autor.cs
+│   │   ├── Editora.cs
+│   │   └── Livro.cs
+│   │
+│   ├── Mappings
+│   │   ├── AutorMapping.cs
+│   │   ├── EditoraMapping.cs
+│   │   └── LivroMapping.cs
+│   │
+│   └── Context
+│       └── BibliotecaContext.cs
+│
+├── Common
+│   └── ErrorResponse.cs
+│
+├── appsettings.json
+└── Program.cs
+
 ## Endpoints
 
 ## Autores:
