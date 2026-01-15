@@ -1,5 +1,3 @@
-# 📚 Biblioteca.Api
-
 ![.NET](https://img.shields.io/badge/.NET-8.0-blue?logo=dotnet)
 ![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-Web%20API-blueviolet?logo=dotnet)
 ![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework-Core-green?logo=ef)
@@ -7,37 +5,29 @@
 ![Swagger](https://img.shields.io/badge/Swagger-OpenAPI-brightgreen?logo=swagger)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-API REST desenvolvida em ASP.NET Core, um CRUD para gerenciamento de livros em uma biblioteca com Entity Framework Core
+# 📚 Biblioteca.Api
+
+API REST em desenvolvimento em **ASP.NET Core 8**, implementando um **CRUD para gerenciamento de uma biblioteca**, utilizando **Entity Framework Core** e **MySQL**.
+
+Projeto com foco em aprendizado prático, organização em camadas e boas práticas no desenvolvimento de APIs.
 
 ---
 
-## Funcionalidades
+## 🚀 Funcionalidades
 
-- Cadastro de livros
-- Consulta de livro por ID
-- Listagem de todos os livros 
-- Atualização de dados de um livro
-- Cadastro de editora
-- Consulta de editora por ID
-- Listagem de todas as editoras
-- Atualização de dados de uma editora
-- Remoção de editora
-- Cadastro de autores
-- Consulta de autores (lista)
+- Cadastro, consulta, listagem, atualização e remoção de **Livros**
+- Cadastro, consulta, listagem, atualização e remoção de **Editoras**
+- Cadastro e consulta de **Autores**
+- Validações de dados
+- Documentação automática com Swagger
 
-## Organização do Projeto
+---
 
-Classes organizadas em diretórios: 
+## 🏗️ Organização do Projeto
 
-- Model: Entidades do domínio
-- Service: Regras de negócio
-- Controllers: Endpoints da API
-- DTOs : Objetos de transferência de dados
-- Mappers: Conversão entre entidades e DTOs
-- Validations: Validações de dados
+A aplicação foi organizada seguindo boas práticas de separação de responsabilidades:
 
-```text
-
+```
 Biblioteca.Api
 │
 ├── Controllers
@@ -67,17 +57,8 @@ Biblioteca.Api
 │
 ├── Models
 │   ├── Entities
-│   │   ├── Autor.cs
-│   │   ├── Editora.cs
-│   │   └── Livro.cs
-│   │
 │   ├── Mappings
-│   │   ├── AutorMapping.cs
-│   │   ├── EditoraMapping.cs
-│   │   └── LivroMapping.cs
-│   │
 │   └── Context
-│       └── BibliotecaContext.cs
 │
 ├── Common
 │   └── ErrorResponse.cs
@@ -86,61 +67,88 @@ Biblioteca.Api
 └── Program.cs
 ```
 
-## Endpoints
+---
 
-## Autores:
+## 🔗 Endpoints
 
-| Método | Rota               | Descrição                     |
-|--------|--------------------|-------------------------------|
-| GET    | /api/autor         | Lista todos os autores        |
-| POST   | /api/autor         | Cadastra um novo autor        |
+### Autores
+| Método | Rota       | Descrição              |
+|--------|------------|------------------------|
+| GET    | /api/autor | Lista todos os autores |
+| POST   | /api/autor | Cadastra um novo autor |
 
-## Editora
+### Editoras
+| Método | Rota              | Descrição              |
+|------  |-------------------|------------------------|
+| GET    | /api/editora      | Lista todas as editoras|
+| GET    | /api/editora/{id} | Consulta editora por ID|
+| POST   | /api/editora      | Cadastra uma editora   |
+| PUT    | /api/editora/{id} | Atualiza dados editora |
+| DELETE | /api/editora/{id} | Remove uma editora     |
 
-| Método | Rota               | Descrição                     |
-|--------|--------------------|-------------------------------|
-| GET    | /api/editora       | Lista todas as editoras       |
-| GET    | /api/editora/{id}  | Lista uma editora por ID      |
-| POST   | /api/editora       | Cadastra uma editora          |  
-| PUT    | /api/editora/{id}  | Atualiza dados de uma editora |
-| DELETE | /api/editora/{id}  | Remove uma editora            |
+### Livros
+| Método | Rota              | Descrição              |
+|--------|-------------------|------------------------|
+| GET    | /api/livros       | Lista todos os livros  |
+| GET    | /api/livros/{id}  | Consulta livro por ID  |
+| POST   | /api/livros       | Cadastra um novo livro |
+| PUT    | /api/livros/{id}  | Atualiza dados do livro|
+| DELETE | /api/livros/{id}  | Remove um livro        |
 
-## Livros
+---
 
-| Método | Rota               | Descrição                     |
-|--------|--------------------|-------------------------------|
-| GET    | /api/livros        | Lista todos os livros         |
-| GET    | /api/livros/{id}   | Lista um livro por ID         |
-| POST   | /api/livros        | Cadastra um novo livro        |
-| PUT    | /api/livros/{id}   | Atualiza os dados de um livro |
-| DELETE | /api/livros/{id}   | Remove um livro               |
+### 📄 Documentação Swagger
 
+A API possui documentação interativa gerada automaticamente via Swagger,
+onde é possível visualizar e testar todos os endpoints disponíveis.
 
-<br>
-<img src="./Screenshot/swagger-api.png" width="450" />
-<br>
+<p align="center">
+  <img src="Screenshot/swagger-api.png" alt="Swagger - Endpoints da API Biblioteca" width="450">
+</p>
 
-## Tecnologias utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 - ASP.NET Core 8
 - Entity Framework Core
-- Fluent API (mapeamento do banco de dados)
+- Fluent API
 - Pomelo.EntityFrameworkCore.MySql
-- MySQL 8.0.40
+- MySQL 8
 - Swagger / OpenAPI
 
-### Pré-requisitos
+---
+
+## 📋 Pré-requisitos
+
 - .NET SDK 8
-- MySQL 8+
+- MySQL 8 ou superior
+- Visual Studio ou VS Code
 
-## Como executar o projeto
+---
 
-1. Clone o repositório de Projetos:
-   ```bash
-   git clone https://github.com/PedroCr13/Estudos-Projetos-Charp.git
+## ▶️ Como Executar o Projeto
 
-2. Acesse a pasta do projeto:    
-   ```bash
-   cd Estudos-Projetos-Charp/Biblioteca.Api
+1. Clone o repositório:
+```bash
+git clone https://github.com/PedroCr13/Estudos-Projetos-CSharp.git
+```
 
-2. Execute no Visual Studio
+2. Acesse a pasta do projeto:
+```bash
+cd Estudos-Projetos-CSharp/Biblioteca.Api
+```
+
+3. Configure a string de conexão no `appsettings.json`.
+
+4. Execute o projeto:
+```bash
+dotnet run
+```
+
+5. Acesse a documentação Swagger pelo navegador.
+
+---
+
+## ⭐ Contribuição
+
+Se este projeto te ajudou ou serviu como referência, considere deixar uma ⭐ no repositório.
+Sugestões e melhorias são sempre bem-vindas!
