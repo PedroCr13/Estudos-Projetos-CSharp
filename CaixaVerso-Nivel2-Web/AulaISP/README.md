@@ -37,14 +37,6 @@ A solução consistiu em:
 
 Com isso, novos produtos podem ser adicionados ao sistema sem modificar o código existente.
 
-## 🟢 Benefícios da aplicação do ISP
-
-- Classes implementam **apenas os métodos necessários**
-- Redução de **acoplamento**
-- Aumento de **coesão**
-- Evita implementações desnecessárias
-- Elimina violações do **Princípio de Liskov (LSP)**
-
 ## 🛠️ Tecnologias
 
 - C#
