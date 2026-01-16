@@ -4,7 +4,7 @@
 ![.NET](https://img.shields.io/badge/.NET-Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![Backend](https://img.shields.io/badge/Backend-Developer-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![Nível](https://img.shields.io/badge/N%C3%ADvel-1%20Fundamentos-success?style=for-the-badge)
+![Nível](https://img.shields.io/badge/N%C3%ADvel-2%20Programa%C3%A7%C3%A3o%20Web-blue?style=for-the-badge)
 
 ---
 Este repositório reúne exercícios e projetos do Nível II do programa Formação Caixa Verso – ADA, com foco no desenvolvimento Backend C# aplicado a boas práticas, SOLID e Web APIs.
