@@ -1,4 +1,4 @@
-﻿# Exercício – Princípio da Segregação de Interfaces  (SOLID)
+﻿# Exercício – Princípio da Segregação de Interfaces (SOLID) em C#
 
 Este projeto foi desenvolvido em uma aula sobre os princípios **SOLID**, com foco no **Princípio da Segregação de Interfaces (Interface Segregation Principle – ISP)**.
 
