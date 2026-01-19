@@ -42,19 +42,19 @@ Padrões estudados neste projeto:
 Criacionais/
 │
 ├── Singleton/
-│   └── Singleton.cs
+│   └── PadraoSingleton.cs
 │
 ├── Factory/
-│   └── FactoryMethod.cs
+│   └── PadraoFactoryMethod.cs
 │
 ├── AbstractFactory/
-│   └── AbstractFactory.cs
+│   └── PadraoAbstractFactory.cs
 │
 ├── Builder/
-│   └── Builder.cs
+│   └── PadraoBuilder.cs
 │
 ├── Prototype/
-│   └── Prototype.cs
+│   └── PadraoPrototype.cs
 │
 └── Program.cs
 ```
