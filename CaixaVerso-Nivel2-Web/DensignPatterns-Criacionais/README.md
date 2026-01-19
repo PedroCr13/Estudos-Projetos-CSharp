@@ -36,7 +36,30 @@ Padrões estudados neste projeto:
 > Observação: Para fins didáticos, algumas pastas mantêm mais de uma classe por arquivo.
 
 ---
+## Estrutura do projeto:
 
+```
+Criacionais/
+│
+├── Singleton/
+│   └── Singleton.cs
+│
+├── Factory/
+│   └── FactoryMethod.cs
+│
+├── AbstractFactory/
+│   └── AbstractFactory.cs
+│
+├── Builder/
+│   └── Builder.cs
+│
+├── Prototype/
+│   └── Prototype.cs
+│
+└── Program.cs
+```
+
+---
 ## 🔹 Singleton
 
 Garante que uma classe possua **apenas uma instância** durante toda a aplicação.
