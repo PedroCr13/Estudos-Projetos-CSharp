@@ -1,0 +1,11 @@
+Notas:
+
+Padrões estruturais: "moldes" que ajudam organizar o design do software, oferecem maneiras de conectar diferentes partes do sistema, de forma que possam se comunicar e operar juntos, sem criar dependências rígidas.
+robustez
+fácil de alterar e extender
+
+
+Adapter:
+
+é um padrão de projeto estrutural que permite que objetos com interfaces incompatíveis colaborem entre si.
+
