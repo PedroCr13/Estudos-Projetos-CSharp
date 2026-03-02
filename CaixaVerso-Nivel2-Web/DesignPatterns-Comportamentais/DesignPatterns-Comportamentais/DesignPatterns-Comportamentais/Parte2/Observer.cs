@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 /*
      Observer: padrão comportamental que permite definir um mecanismo
      de assinatura para notificar multiplos objetos sobre quaisquer eventos
-     que aconteçam como o objeto que ele eles estão observando.
+     que aconteçam com o objeto que ele eles estão observando.
 
-     sujeito (subject) precisa notificar uma lista de objetos dependentes (oberservers)
+     sujeito (subject) precisa notificar uma lista de objetos dependentes (observers)
      sobre qualquer mudança em seu estado (usado em eventos: interface gráfica, monitoramento, etc)
      Subscribers: apenas quem precisa saber do evento vai ouvi-lo
 
