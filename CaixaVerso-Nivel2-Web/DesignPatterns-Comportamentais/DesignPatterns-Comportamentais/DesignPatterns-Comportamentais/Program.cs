@@ -102,7 +102,7 @@ namespace CursoAda.CaixaVerso.PadroesProjeto
             */
 
             // Observer:
-
+            /*
             // Sistemas satélites:
             var pedidoService = new PedidoService();
             var geradorNF = new GeradorNF();
@@ -119,7 +119,60 @@ namespace CursoAda.CaixaVerso.PadroesProjeto
             pedidoService.RealizarPedido(meuPedido);
 
             Console.ReadKey();
+            */
 
+            // State
+            /*
+            Semaforo semaforo = new Semaforo(new EstadoVermelho());
+            semaforo.MudarEstado();
+            semaforo.MudarEstado();
+            semaforo.MudarEstado();
+            semaforo.MudarEstado();
+
+            Console.ReadKey();
+            */
+
+            // Strategy
+            /*
+            var calculador = new CalculadorDeRota(new RotaMaisRapida());
+            calculador.CalcularRota("Ponto A", "Ponto B");
+
+            // mudar para uma rota mais curta:
+            calculador.DefinirEstrategia(new RotaMaisCurta());
+            calculador.CalcularRota("Ponto A", "Ponto B");
+
+            // Mudar para a rota mais barata:
+            calculador.DefinirEstrategia(new RotaMaisBarata());
+            calculador.CalcularRota("Ponto A", "Ponto B");
+
+            Console.ReadKey();
+            */
+
+            // Template Method:
+            /*
+            ProcessadorDeDocumento processadorPDF = new ProcessadorPDF();
+            processadorPDF.ProcessarDocumento();
+
+            ProcessadorDeDocumento processadorWord = new ProcessadorWord();
+            processadorWord.ProcessarDocumento();
+
+            Console.ReadKey();
+            */
+
+            // Visitor
+
+            List<IEmpregado> empregados = new List<IEmpregado>
+            {
+                new Engenheiro("Alice", 70000),
+                new DesignPatterns_Comportamentais.Parte2.Gerente("Bob", 70500)
+            };
+
+            var visitor = new AumentaSalario();
+
+            foreach (var empregado in empregados)
+            {
+                empregado.Accept(visitor);
+            }
         }
     }
 }
