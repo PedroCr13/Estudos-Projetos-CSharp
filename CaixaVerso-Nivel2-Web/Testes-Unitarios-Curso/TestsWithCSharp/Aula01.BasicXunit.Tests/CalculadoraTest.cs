@@ -39,7 +39,25 @@ namespace Aula01.BasicXunit.Tests
             // Assert - a variável resultado terá que valor? Comparar com o testado com o esperado
 
             // equal: retorna booleano
-            Assert.Equal(5, resultado);
+            Assert.Equal(4, resultado);
+        }
+
+        // Realizar mais de um teste de valores em um único teste (usando [Theory])
+
+        [Theory]  // Theory deve vir acompanhado de InLineData com os valores a testar e resultado esperado
+        [InlineData(2, 2, 4)] // o que será testado e resultado esperado
+        [InlineData(3, 2, 5)]
+        [InlineData(1, 5, 6)]
+        public void Calculadora_Somar_SomaVariosValores(int a, int b, int resultadoEsperado)
+        {
+            // Arrange
+            Calculadora calc = new Calculadora();
+
+            // Act
+            int resultado = calc.Somar(a, b);
+
+            // Assert
+            Assert.Equal(resultadoEsperado, resultado);
         }
     }
 }
