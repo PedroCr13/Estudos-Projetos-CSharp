@@ -1,0 +1,6 @@
+﻿/*
+	Girar lista:
+	- recebe uma lista de numeros
+	- move o primeiro item para o fim
+	- retorna a nova lista
+*/
