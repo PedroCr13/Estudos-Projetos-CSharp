@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 /*
     Instalar a dependência MOQ (pacote NuGet) 
     Referenciar projeto de testes para o projeto principal.
-    MOQ é uma extensão da Microsoft
+    MOQ é uma extensão open source
     Da classe ClienteService serão testados os metodos ObterTodos() e o Adicionar()
     ambos dependem da classe ClienteRepository (a qual será feito mock)
     Também foi usada extensão FluentAssertions
