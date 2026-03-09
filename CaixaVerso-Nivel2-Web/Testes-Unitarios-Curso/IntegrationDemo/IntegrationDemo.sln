@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationDemo", "IntegrationDemo\IntegrationDemo.csproj", "{86A09A3D-6ECC-4D93-9132-4E66656E63AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationDemoTests", "IntegrationDemoTests\IntegrationDemoTests.csproj", "{2587B5FC-65F3-4291-807C-689A516C7C98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86A09A3D-6ECC-4D93-9132-4E66656E63AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86A09A3D-6ECC-4D93-9132-4E66656E63AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86A09A3D-6ECC-4D93-9132-4E66656E63AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86A09A3D-6ECC-4D93-9132-4E66656E63AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2587B5FC-65F3-4291-807C-689A516C7C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2587B5FC-65F3-4291-807C-689A516C7C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2587B5FC-65F3-4291-807C-689A516C7C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2587B5FC-65F3-4291-807C-689A516C7C98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {65E6BE11-728F-47AD-855E-154BB856082E}
+	EndGlobalSection
+EndGlobal
