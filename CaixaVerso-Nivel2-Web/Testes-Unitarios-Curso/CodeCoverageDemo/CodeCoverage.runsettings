@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat Code Coverage" enabled="true">
+        <Configuration>
+          <Format>cobertura</Format>
+          <Exclude>
+            <!-- Exclui os próprios testes -->
+            <Assembly>.*Tests</Assembly>
+            <Assembly>.*TestAdapter</Assembly>
+            <Assembly>xunit.*</Assembly>
+          </Exclude>
+          <Include>
+            <!-- Inclui apenas o projeto principal -->
+            <Assembly>CodeCoverageDemo</Assembly>
+          </Include>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+</RunSettings>
