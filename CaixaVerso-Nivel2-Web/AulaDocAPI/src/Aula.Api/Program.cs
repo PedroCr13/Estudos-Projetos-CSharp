@@ -8,6 +8,7 @@
     baseada no padrão OpenAPI
  */
 
+using Aula.Api.Middlewares;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -50,9 +51,13 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+// Leitura é feita em ordem de declaração:
+
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+app.UseMiddleware<ErrorMiddleware>();
 
 app.MapControllers();
 
