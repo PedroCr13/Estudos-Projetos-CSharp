@@ -28,6 +28,7 @@ namespace Aula.Api.Controllers
         [HttpGet(Name = "GetWeatherForecast")]
         public async Task<IActionResult> Get()
         {
+            _logger.LogInformation("Vai começar...");
   
             // criado um midleware que encapsula o try catch e mensagem de retono em caso de exceção
             var result = Enumerable.Range(1, 5).Select(index => new WeatherForecast
