@@ -10,6 +10,10 @@
 
 using Aula.Api.Configuration;
 using Aula.Api.Middlewares;
+using Aula.Application.Requests;
+using Aula.Application.UseCases;
+using Aula.Application.Validators;
+using FluentValidation;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
@@ -21,6 +25,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Host.UseSerilog((context, configuration) => configuration.ReadFrom.Configuration(context.Configuration));
 
 // Add services to the container.
+
+// Registra a dependência com ciclo de vida scoped (uma instância por requisição HTTP).
+// O container de DI vê essa necessidade e injeta automaticamente a implementação registrada (CriarAlunoValidator).
+builder.Services.AddScoped<IValidator<CriarAlunoRequest>, CriarAlunoValidator>();
+builder.Services.AddScoped<ICriarAlunoUseCase, CriarAlunoUseCase>();
 
 builder.Services.AddHealthChecks();
 builder.Services.AddControllers();
