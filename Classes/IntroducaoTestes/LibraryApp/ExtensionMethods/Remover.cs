@@ -7,18 +7,20 @@ namespace IntroducaoTestes.LibraryApp.ExtensionMethods
 {
     public static class RemoverExtensions
     {
-        public static RemoverString Remover(this string source)
+        public static RemoverString Remover(this string source, string substring = null)
         {
-            return new RemoverString(source);
+            return new RemoverString(source, substring);
         }
     }
 
     public class RemoverString
     {
         private readonly string _source;
-        internal RemoverString(string source)
+        private readonly string _substring;
+        internal RemoverString(string source, string substring)
         {
             _source = source;
+            _substring = substring;
         }
             
         public static implicit operator string(RemoverString removerString)
@@ -28,7 +30,12 @@ namespace IntroducaoTestes.LibraryApp.ExtensionMethods
 
         public override string ToString()
         {
-            return _source != null ? string.Empty : null;
+            if (_substring != null)
+            {
+                int posicaoInicialDaSubstring = _source.IndexOf(_substring);
+                return _source.Substring(posicaoInicialDaSubstring + _substring.Length);
+            }
+            return string.Empty;
         }
     }
 }

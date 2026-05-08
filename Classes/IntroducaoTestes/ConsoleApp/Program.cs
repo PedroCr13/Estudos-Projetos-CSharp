@@ -3,7 +3,7 @@ using IntroducaoTestes.LibraryApp.ExtensionMethods;
 
 /*
     teste sendo realizado na própria aplicação, a boa prática é criar um projeto de testes 
-    com mesmo nome do projeto principal acrescido do sufixo Test
+    com mesmo nome do projeto principal, cada acrescido do sufixo Test
 
     Foi Criada uma classe de Extension Method para a classe String que será usada nos exercicios
 */
