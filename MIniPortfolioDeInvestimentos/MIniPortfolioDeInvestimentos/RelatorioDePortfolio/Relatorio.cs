@@ -53,7 +53,7 @@ namespace MIniPortfolioDeInvestimentos.RelatorioDeAtivos
                 {
                     var valor = prop.GetValue(ativo);
 
-                    Console.WriteLine($"{prop.Name}: {FormatarValor(valor)}");
+                    Console.WriteLine($"{prop.Name}: {FormatarValor(valor, prop.Name)}");
                 }
 
                 Console.WriteLine($"Rentabilidade: {ativo.CalcularRentabilidade():F2}%");
@@ -64,18 +64,25 @@ namespace MIniPortfolioDeInvestimentos.RelatorioDeAtivos
             }
         }
 
-        private static string FormatarValor(Object valor)
+        private static string FormatarValor(object valor, string propName = "")
         {
-            if (valor is decimal dec)
-                return dec.ToString("C"); // moeda
-            if (valor is int i)
-                return i.ToString(); // inteiro
-            if (valor is double d)
-                return d.ToString("F2"); // número com 2 casas decimais
-            if (valor is DateTime dt)
-                return dt.ToString("dd/MM/yyyy"); // data formatada
+            if (valor == null) return string.Empty;
 
-            return valor?.ToString() ?? string.Empty; // string ou outros tipos
+            if (valor is decimal dec)
+            {
+                // Se o nome da propriedade indicar percentual
+                if (propName.Contains("Taxa") || propName.Contains("Variacao") || propName.Contains("Rentabilidade"))
+                    return $"{dec:F2}%";
+
+                // Caso contrário, trata como moeda
+                return dec.ToString("C");
+            }
+
+            if (valor is int i) return i.ToString();
+            if (valor is double d) return d.ToString("F2");
+            if (valor is DateTime dt) return dt.ToString("dd/MM/yyyy");
+
+            return valor.ToString();
         }
     }
 }
